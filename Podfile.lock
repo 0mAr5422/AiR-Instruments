@@ -1,0 +1,33 @@
+PODS:
+  - AudioKit (4.7.2):
+    - AudioKit/Core (= 4.7.2)
+    - AudioKit/UI (= 4.7.2)
+  - AudioKit/Core (4.7.2)
+  - AudioKit/UI (4.7.2):
+    - AudioKit/Core
+  - PageControls (1.0.1):
+    - PageControls/FilledPageControl (= 1.0.1)
+    - PageControls/PillPageControl (= 1.0.1)
+    - PageControls/ScrollingPageControl (= 1.0.1)
+    - PageControls/SnakePageControl (= 1.0.1)
+  - PageControls/FilledPageControl (1.0.1)
+  - PageControls/PillPageControl (1.0.1)
+  - PageControls/ScrollingPageControl (1.0.1)
+  - PageControls/SnakePageControl (1.0.1)
+
+DEPENDENCIES:
+  - AudioKit
+  - PageControls
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AudioKit
+    - PageControls
+
+SPEC CHECKSUMS:
+  AudioKit: ee4ab79e2fffe42e52b8fd8d214eaaea968c368e
+  PageControls: fc2436c93e79419521a6de5d46d84722593e2949
+
+PODFILE CHECKSUM: 5f80efb6eb89ca49cbd6c4284982376c62a142a0
+
+COCOAPODS: 1.5.3
